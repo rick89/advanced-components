@@ -1,11 +1,9 @@
-import { ReactNode } from "react"
+import { ReactNode } from 'react';
 
 type ListProps = {
-    renderItem: ReactNode
-}
+	renderItem: ReactNode;
+};
 
-export const List:React.FC<ListProps> = ({ renderItem }) => {
-    return <ul>
-        {renderItem}
-    </ul>
-}
+export const List: React.FC<ListProps> = ({ renderItem }) => {
+	return <ul>{renderItem}</ul>;
+};
